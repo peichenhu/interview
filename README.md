@@ -1,3 +1,8 @@
-# My Awesome Book
+# 前端面试指南
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+想要作为一名前端，第一件要做的事就是过面试关。前端已经发展了十几年，作为一个技术导向工作，技术的积累和创新至关重要。而面试就是为了考察技术的积累，但是面试的内容又常常涉及我们生疏遗忘的方面，为了帮助我们在面试中能够表现得更好，送给自己和所有有缘人一份全面的前端面试指南，仅当共勉。
+
+
+
+
+
