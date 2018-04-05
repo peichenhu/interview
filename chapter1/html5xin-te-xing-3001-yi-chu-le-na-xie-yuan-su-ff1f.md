@@ -20,55 +20,28 @@ sessionStorage 的数据在浏览器关闭后自动删除;
 新的技术webworker, websocket, Geolocation;
 ```
 
-移除的元素：
+> HTML 5 移除的内容：
 
 ```
 纯表现的元素：basefont，big，center，font, s，strike，tt，u;
 
-
-
 对可用性产生负面影响的元素：frame，frameset，noframes；
 ```
 
-\* 支持HTML5新标签：
+\* HTML5 新标签如何向后兼容：
 
 ```
-   IE8/IE7/IE6支持通过document.createElement方法产生的标签，
+IE8/IE7/IE6支持通过document.createElement方法产生的标签，
 
-     可以利用这一特性让这些浏览器支持HTML5新标签，
+可以利用这一特性让这些浏览器支持HTML5新标签，
 
-     浏览器支持新标签后，还需要添加标签默认的样式。
+浏览器支持新标签后，还需要添加标签默认的样式。
 
-
-
-   当然也可以直接使用成熟的框架、比如html5shim;
+当然也可以直接使用成熟的框架、比如html5shim;
+<!--[if lt IE 9]>
+ <script> src="http://html5shim.googlecode.com/svn/trunk/html5.js"</script>
+<![endif]-->
 ```
 
-&lt;
 
-!--\[if lt IE 9\]
-
-&gt;
-
-&lt;
-
-script
-
-&gt;
-
-src="[http://html5shim.googlecode.com/svn/trunk/html5.js](http://html5shim.googlecode.com/svn/trunk/html5.js)"
-
-&lt;
-
-/script
-
-&gt;
-
-&lt;
-
-!\[endif\]--
-
-&gt;
-
-\* 如何区分HTML5： DOCTYPE声明\新增的结构元素\功能元素
 
