@@ -28,7 +28,7 @@ sessionStorage 的数据在浏览器关闭后自动删除;
 对可用性产生负面影响的元素：frame，frameset，noframes；
 ```
 
-\* HTML5 新标签如何向后兼容：
+> HTML5 新标签如何向后兼容：
 
 ```
 IE8/IE7/IE6支持通过document.createElement方法产生的标签，
