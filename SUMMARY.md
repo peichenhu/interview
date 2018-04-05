@@ -8,5 +8,6 @@
   * [标签语义化](chapter1/biao-qian-yu-yi-hua.md)
   * [cookies，sessionStorage 和 localStorage 的区别](chapter1/cookiessessionstorage-he-localstorage-de-qu-bie.md)
   * [iframe有那些缺点？](chapter1/iframeyou-na-xie-que-dian-ff1f.md)
+  * [HTML5 离线储存](chapter1/html5-li-xian-chu-cun.md)
 * CSS
 
