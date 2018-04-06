@@ -6,7 +6,7 @@
 
 * [SEO    ](HTML/SEO.md)
 
-* [Element](HTML/HTML5.md)
+* [Element](HTML/Element.md)
   * [img 的title和alt有什么区别](HTML/Element.md#img_title_alt)
   * [doctype是什么,举例常见doctype及特点](HTML/Element.md#doctype)
 
