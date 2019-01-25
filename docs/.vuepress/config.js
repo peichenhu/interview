@@ -22,6 +22,7 @@ module.exports = {
 			'/Other',
 		],
 		nav: [
+			{ text: 'PCH1024', link: 'http://peichenhu.cn' },
 			{ text: 'Article', link: '/Guide' },
 			{ text: 'Github', link: 'https://github.com/pch1024' },
 		],
