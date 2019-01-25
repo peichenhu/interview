@@ -7,5 +7,5 @@ export default ({
 	// ...使用应用程序级别的增强功能
 	// console.log(options);
 	// console.log(router);
-	console.log(siteData);
+	// console.log(siteData);
 };

@@ -45,7 +45,7 @@
 - `ol`内`li`的序号全为 1，不递增。解决方法：为 li 设置样式`display: list-item;`
 - 未定位父元素`overflow: auto;`，包含`position: relative;`子元素，子元素高于父元素时会溢出。解决办法：
 
-```text
+```txt
   子元素去掉 position: relative; ;
   不能为子元素去掉定位时，父元素 position: relative;
 ```
@@ -75,14 +75,14 @@
 
 - IE6 下浮动元素在浮动方向上与父元素边界接触元素的外边距会加倍。解决办法：
 
-```text
+```txt
     使用 padding 控制间距。
     浮动元素 `display: inline;`(css 标准规定浮动元素 display:inline 会自动调整为 block)
 ```
 
 - 通过为块级元素设置宽度和左右 margin 为 auto 时，IE6 不能实现水平居中，解决方法：
 
-```text
+```txt
     为父元素设置`text-align: center;`
 ```
 
