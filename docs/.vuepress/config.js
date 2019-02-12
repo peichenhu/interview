@@ -20,6 +20,7 @@ module.exports = {
 			'/Algorithm',
 			'/Optimization',
 			'/Other',
+			'/WXAPP',
 		],
 		nav: [
 			{ text: 'PCH1024', link: 'http://peichenhu.cn' },
