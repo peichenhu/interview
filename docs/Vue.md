@@ -25,6 +25,27 @@ ViewModel 通过双向数据绑定把 View 层和 Model 层连接了起来，而
 - 声明式：标签跳转
 - 编程式：JS 跳转
 
+## vue-router HTML5 History 模式
+
+```js
+const router = new VueRouter({
+  mode: 'history',
+  routes: [...]
+})
+// 当你使用 history 模式时，URL 就像正常的 url，例如 http://yoursite.com/user/id，也好看！
+// 不过这种模式要玩好，还需要后台配置支持。因为我们的应用是个单页客户端应用，如果后台没有正确的配置，当用户在浏览器直接访问 http://oursite.com/user/id 就会返回 404，这就不好看了。
+// 所以呢，你要在服务端增加一个覆盖所有情况的候选资源：如果 URL 匹配不到任何静态资源，则应该返回同一个 index.html 页面，这个页面就是你 app 依赖的页面。
+```
+
+history 模式下配置 nginx
+
+```js
+location / {
+  try_files $uri $uri/ /index.html;
+}
+// 前端vue 配置404页面
+```
+
 ## Vuex 会带来什么好处？
 
 - 多组件嵌套，降低数据耦合性
@@ -99,6 +120,14 @@ filters: {
   }
 }
 ```
+
+## Vue 中 computed,methods,watch 用法上的异同
+
+1. computed 实际上是利用 getter 属性建立了计算属性与原属性之间的绑定关系，所以是没有任何副作用的。能通过 computed 解决的问题应该优先使用 computed。
+2. computed 缓存计算结果,只有原属性发生改变，才重新计算
+3. 方法可以传参,每次渲染都会执行,常用在在数据变化的时候进行异步或者开销比较大的操作的时候
+4. watch 监听属性一次只能监听一个属性,
+5. computed 可以监听多个
 
 ## 其他
 
