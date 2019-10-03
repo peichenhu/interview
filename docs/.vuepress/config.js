@@ -1,6 +1,6 @@
 module.exports = {
-	title: '前端面试指南',
-	description: '好记性不如烂笔头',
+	title: '烈虎',
+	description: '谦和，自信，求是',
 	head: [['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]],
 	configureWebpack: {
 		resolve: {
@@ -12,7 +12,22 @@ module.exports = {
 	themeConfig: {
 		sidebar: [
 			'/Guide',
-			'/HTML',
+			'/Code',
+			{
+				title: 'HTML',
+				collapsable: true,
+				children: [
+					'/HTML/HTML-Base',
+					'/HTML/HTML-Advance',
+				]
+			},{
+				title: '设计模式',
+				collapsable: true,
+				children: [
+					'/设计模式/Constructor',
+					'/设计模式/Module',
+				]
+			},
 			'/CSS',
 			'/Vue',
 			'/HTTP',
@@ -24,7 +39,7 @@ module.exports = {
 		],
 		nav: [
 			{ text: 'PCH1024', link: 'http://peichenhu.cn' },
-			{ text: 'Article', link: '/Guide' },
+			{ text: '日积月累', link: '/Guide' },
 			{ text: 'Github', link: 'https://github.com/pch1024' },
 		],
 	},

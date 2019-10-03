@@ -39,7 +39,7 @@ const router = new VueRouter({
 
 history 模式下配置 nginx
 
-```js
+```shell
 location / {
   try_files $uri $uri/ /index.html;
 }
@@ -89,7 +89,7 @@ Vue.component('async-example', function(resolve, reject) {
 
 - 指令: 除了核心功能默认内置的指令 (v-model 和 v-show)，Vue 也允许注册自定义指令
 
-```js
+```
 // 你可以在模板中任何元素上使用新的 v-focus 属性
 <input v-focus />
 
@@ -113,7 +113,7 @@ directives: {
 `<div v-bind:id="rawId | formatId"></div>`
 // 在一个组件的选项中定义本地的过滤器
 filters: {
-  capitalize: function (value) {
+  capitalize: function(value) {
     if (!value) return ''
     value = value.toString()
     return value.charAt(0).toUpperCase() + value.slice(1)

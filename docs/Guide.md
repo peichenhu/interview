@@ -1,23 +1,49 @@
-# 前序
+# Hello World
 
-> 内容完全来源于网络
+In me, past, present, future meet
 
-想要作为一名前端，第一件要做的事就是过面试关。
+于我，过去、现在和未来
 
-前端已经发展了十几年，作为一个技术导向工作，技术的积累和创新至关重要。
+To hold long chiding conference
 
-而面试就是为了考察技术的积累，但是面试的内容又常常涉及我们生疏遗忘的方面，为了帮助我们在面试中能够表现得更好，送给自己和所有有缘人一份全面的前端面试指南，仅当共勉。
+商讨聚会 各执一词 纷扰不息
 
-```txt
-HTML&CSS：
-    对Web标准的理解、浏览器内核差异、兼容性、hack、CSS基本功：布局、盒子模型、选择器优先级、
-    HTML5、CSS3、Flexbox
+My lusts usurp the present tense 
 
-JavaScript：
-    数据类型、运算、对象、Function、继承、闭包、作用域、原型链、事件、RegExp、JSON、Ajax、
-    DOM、BOM、内存泄漏、跨域、异步装载、模板引擎、前端MVC、路由、模块化、Canvas、ECMAScript 6、Nodejs
+林林总总的 欲望，掠取着我的现在
 
-其他：
-    移动端、响应式、自动化构建、HTTP、离线存储、WEB安全、优化、重构、团队协作、可维护、易用性、SEO、UED、架构、
-    职业生涯、快速学习能力
-```
+And strangle Reason in his seat
+
+把“理性”扼杀于它的宝座
+
+My loves leap through the future's fence 
+
+我的爱越过未来的藩篱
+
+To dance with dream-enfranchised feet
+
+梦想解放出它们的双脚，舞蹈不停
+
+In me the cave-man clasps the seer
+
+于我，穴居人攫取了先知
+
+And garlanded Apollo goes 
+
+佩戴花环的阿波罗神
+
+Chanting to Abraham's deaf ear
+
+向亚伯拉罕的聋耳唱叹歌吟。
+
+In me the tiger sniffs the rose
+
+心有猛虎，细嗅蔷薇
+
+Look in my heart, kind friends, and tremble
+
+审视我的内心吧，亲爱的朋友，你应颤栗
+
+Since there your elements assemble
+
+因为那才是你本来的面目

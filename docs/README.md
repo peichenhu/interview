@@ -1,14 +1,14 @@
 ---
 home: true
 heroImage: /assets/img/logo.png
-actionText: 文章列表 →
+actionText: 点击领取五百万红包 →
 actionLink: /Guide
 features:
-  - title: 基础知识
-    details: HTML、CSS、JavaScript、nodejs、算法、
-  - title: 浏览器
-    details: BOM、
-  - title: 框架插件
-    details: Vue、Webpack、JQuery、微信小程序、Echarts、ElementUI、Git、React
+  - title: 过去
+    details: HTML、CSS、JavaScript
+  - title: 现在
+    details: JSX、SASS、TypeScript
+  - title: 未来
+    details: All in AI
 footer: MIT Licensed | Copyright © 2019-PCH1024
 ---
