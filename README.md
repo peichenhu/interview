@@ -1,29 +1,48 @@
-# 前端面试指南
+# 烈虎
 
-想要作为一名前端，第一件要做的事就是过面试关。前端已经发展了十几年，作为一个技术导向工作，技术的积累和创新至关重要。而面试就是为了考察技术的积累，但是面试的内容又常常涉及我们生疏遗忘的方面，为了帮助我们在面试中能够表现得更好，送给自己和所有有缘人一份全面的前端面试指南，
+这里是我的一波三折后最终选择的文章根据地，同步[思否社区](https://segmentfault.com/u/peichenhu)
+
+- FE面试题
+- 设计模式
+- 前端算法
+- 原创文章
+- 代码片段
+- 数码生活
+- 网络资源
+- 开源项目
 
 ## 运行项目
 
-```sh
+```bash
 #  安装 vuepress
+
 npm install -g vuepress@next
+
 #  开发
 npm run dev
+
 #  打包
 npm run build
+
+# 部署(记得修改 deploy.sh)
+
+sh deploy.sh
+
 ```
 
 ## 项目结构
 
 ```s
+dist：项目打包目录
 docs：项目文件目录
     .vuepress：项目配置和项目打包
-        dist：项目打包目录
         public：项目静态资源目录
+        component: Vue 组件模板
         config.js：项目配置脚本
         enhanceApp.js：Vue配置脚本
     README.md：项目首页
-    some.md：项目其他页面
+    [文章资源分类]/[文章].md
+    [文章].md
 ```
 
 ## 参与项目

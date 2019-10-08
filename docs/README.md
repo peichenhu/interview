@@ -10,5 +10,5 @@ features:
     details: JSX、SASS、TypeScript
   - title: 未来
     details: All in AI
-footer: MIT Licensed | Copyright © 2019-PCH1024
+footer: MIT Licensed | 心有猛虎，细嗅蔷薇 | Copyright © 2019-PCH1024
 ---
