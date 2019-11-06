@@ -36,11 +36,10 @@
                         height: 10px;
                         position: absolute;
                         border-radius: 50%;
-                        animation: water 1000ms linear;
+                        animation: water 900ms linear;
                     `);
                     btnWater.appendChild(el);
-                    const removeChildren = () => btnWater.childNodes[ 1 ] && btnWater.removeChild(btnWater.childNodes[ 1 ]);
-                    setTimeout(removeChildren, 1200);
+                    setTimeout(() => btnWater.removeChild(el), 1200);
                 }
             });
         }
@@ -49,6 +48,7 @@
 </script>
 <style>
     .btn {
+        border-radius: 3px;
         display: inline-block;
         padding: 10px 50px;
         color: white;
@@ -64,11 +64,13 @@
     
     @keyframes water {
         from {
-            transform: scale(0);
-            background: rgba(255, 255, 255, 0.4);
+            transform: scale(5);
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
         }
         to {
             transform: scale(50);
+            border-radius: 20%;
             background: rgba(255, 255, 255, 0);
         }
     }

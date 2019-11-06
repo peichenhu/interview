@@ -1,16 +1,17 @@
 {
-	"name": "vuepress",
-	"version": "1.0.0",
-	"description": "blog",
-	"main": "index.js",
-	"scripts": {
-		"dev": "vuepress dev docs",
-		"build": "vuepress build docs"
-	},
-	"author": "PCH1024",
-	"license": "MIT",
-	"devDependencies": {
-		"node-sass": "^4.12.0",
-		"sass-loader": "^8.0.0"
-	}
+  "name": "vuepress",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
+  },
+  "author": "PCH1024",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
+  }
 }

@@ -41,11 +41,21 @@ module.exports = {
                     "/代码片段/函数节流",
                     "/代码片段/函数防抖"
                 ]
+            }, {
+                title: "开源项目",
+                collapsable: true,
+                children: [
+                    "/开源项目/dom-to-pdf",
+                    "/开源项目/echarts-in-react",
+                    "/开源项目/fix-image-orientation",
+                    "/开源项目/tinypng-for-node"
+                ]
             },
             {
                 title: "原创文章",
                 collapsable: true,
                 children: [
+                    "/原创文章/JS-new操作构造函数深度解析",
                     "/原创文章/JS-this",
                     "/原创文章/JS-闭包",
                     "/原创文章/JS-数码照片旋转角度修复",
@@ -85,7 +95,8 @@ module.exports = {
                 title: "设计模式",
                 collapsable: true,
                 children: [
-                    "/设计模式/单例模式"
+                    "/设计模式/单例模式",
+                    "/设计模式/策略模式"
                 ]
             }, {
                 title: "算法研究",

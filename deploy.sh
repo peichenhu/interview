@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+cp#!/usr/bin/env sh
 
 # 终止一个错误
 set -e
@@ -7,6 +7,7 @@ set -e
 npm run build
 
 # 进入生成的构建文件夹
+
 cd dist
 
 # 如果你是要部署到自定义域名
