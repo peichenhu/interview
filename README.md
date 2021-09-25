@@ -1,15 +1,14 @@
 # 烈虎
 
-这里是我的一波三折后最终选择的文章根据地，同步[思否社区](https://segmentfault.com/u/peichenhu)
+这里是我的一波三折腾后最终选择的自留地。
 
-- FE面试题
-- 设计模式
-- 前端算法
-- 原创文章
-- 代码片段
-- 数码生活
-- 网络资源
-- 开源项目
+- JS
+- HTML&CSS
+- HTTP
+- Pattern
+- LeetCode
+- Building
+- Other
 
 ## 运行项目
 
