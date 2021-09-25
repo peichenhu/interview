@@ -30,7 +30,6 @@ module.exports = {
         sidebarDepth: 1,
         displayAllHeaders: false, // 默认值：false
         sidebar: [
-            ["/Guide", "首页"],
             {
                 title: "学习 JS",
                 children: [
@@ -116,6 +115,7 @@ module.exports = {
             {
                 title: "杂货铺",
                 children: [
+                    "/生活打卡",
                     "/9-Other/个人简历",
                     "/9-Other/个人租房",
                     "/9-Other/资源导航",
@@ -135,6 +135,7 @@ module.exports = {
         nav: [
             // { text: "我的思否", link: "https://segmentfault.com/u/peichenhu" },
             // { text: "在线 HTML", link: "/VueEditor" },
+            { text: "生活打卡", link: "/生活打卡" },
             { text: "关于我", link: "/9-Other/个人简历" },
             { text: "日常问题", link: "/9-Other/日常问题" },
             { text: "Todo", link: "/websiteList/TodoList/index.html" },

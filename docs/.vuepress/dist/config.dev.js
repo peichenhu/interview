@@ -21,7 +21,7 @@ module.exports = {
     sidebarDepth: 1,
     displayAllHeaders: false,
     // 默认值：false
-    sidebar: [["/Guide", "首页"], {
+    sidebar: [{
       title: "学习 JS",
       children: ["/1-JS/1-变量", "/1-JS/2-函数", "/1-JS/3-执行环境", "/1-JS/理解原型对象", "/1-JS/事件循环机制", "/1-JS/垃圾清理机制", "/1-JS/模块编程机制", "/1-JS/异步编程机制", "/1-JS/JS-面向对象编程", "/1-JS/JS-柯里化函数", "/1-JS/JS-代理和反射", "/1-JS/JS手写Polyfill", "/1-JS/JS百宝箱"]
     }, {
@@ -55,7 +55,7 @@ module.exports = {
       ]
     }, {
       title: "杂货铺",
-      children: ["/9-Other/个人简历", "/9-Other/个人租房", "/9-Other/资源导航", "/9-Other/日常问题", // "/9-Other/个人规划",
+      children: ["/生活打卡", "/9-Other/个人简历", "/9-Other/个人租房", "/9-Other/资源导航", "/9-Other/日常问题", // "/9-Other/个人规划",
       "/9-Other/Markdown语法", "/9-Other/芸芸众生", "/9-Other/Emoji", "/9-Other/墙外的世界", "/9-Other/未整理的知识" // "/9-Other/面试记录",
       //
       //
@@ -64,6 +64,9 @@ module.exports = {
     nav: [// { text: "我的思否", link: "https://segmentfault.com/u/peichenhu" },
     // { text: "在线 HTML", link: "/VueEditor" },
     {
+      text: "生活打卡",
+      link: "/生活打卡"
+    }, {
       text: "关于我",
       link: "/9-Other/个人简历"
     }, {

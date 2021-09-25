@@ -2,7 +2,7 @@
 home: true
 heroImage: /assets/img/logo.png
 actionText: 学而常习之，君子不惰 →
-actionLink: /Guide
+actionLink: /1-JS/1-变量
 features:
     - title: 过去
       details: HTML、CSS、JS
